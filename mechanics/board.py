@@ -1,10 +1,8 @@
-from typing import Dict
-
 from p5 import *
 
-from common import min_value, max_value, distance
-from grid import Grid
-from parameters import *
+from mechanics.common import min_value, max_value, distance
+from mechanics.grid import Grid
+from mechanics.parameters import *
 
 
 class Point:
@@ -280,7 +278,7 @@ class Board:
         self.grid = grid
 
         # array of points, every point contains group reference
-        self.points: [[Group]] = [[None for x in range(0, board_size)] for y in range(0, board_size)]
+        self.points: [[Group]] = [[None for x in board_range] for y in board_range]
         self.groups = [[] for i in players]
         self.cycles = [[] for i in players]
 
@@ -480,8 +478,8 @@ class Board:
     def score(self, player):
         s = 0
 
-        for y in range(0, board_size):
-            for x in range(0, board_size):
+        for y in board_range:
+            for x in board_range:
                 g = self.points[y][x]
                 if g is not None and g.player == player:
                     s += 1

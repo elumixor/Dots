@@ -2,10 +2,10 @@ from ast import literal_eval
 
 from p5 import *
 
-from common import get_mouse_down
-from grid import Grid
-from board import Point, Board, Group
-from parameters import *
+from mechanics.common import get_mouse_down
+from mechanics.grid import Grid
+from mechanics.board import Point, Board
+from mechanics.parameters import *
 
 # Grid and Board
 grid = Grid(board_size, line_thickness, space_thickness, scale)

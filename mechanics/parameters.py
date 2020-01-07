@@ -1,5 +1,6 @@
 # Grid and board parameters
 board_size = 10
+board_range = range(0, board_size)
 
 # Maximum dots on the board
 max_dots = board_size * board_size
@@ -17,3 +18,5 @@ scale = 3
 
 colors = ["green", "red"]
 dot_radius = space_thickness * .2 * scale
+
+log_path = "../logs/"
