@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0946093-02a4-4bbe-8582-8d0e3139da2c" name="Default Changelist" comment="My buggy game is implemented, displayed using p5">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DotsGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DotsGame.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d0946093-02a4-4bbe-8582-8d0e3139da2c" name="Default Changelist" comment="Added Machine learning into the mix">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_ai.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_ai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_manual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_logging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanics/board.py" beforeDir="false" afterPath="$PROJECT_DIR$/mechanics/board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mechanics/parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/hyperparameters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/ai.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/ai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +40,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -239,7 +232,8 @@
       <workItem from="1577670877071" duration="97559000" />
       <workItem from="1578818707604" duration="9414000" />
       <workItem from="1578833691285" duration="13789000" />
-      <workItem from="1578900011472" duration="6612000" />
+      <workItem from="1578900011472" duration="6670000" />
+      <workItem from="1578907730582" duration="1824000" />
     </task>
     <task id="LOCAL-00001" summary="My buggy game is implemented, displayed using p5">
       <created>1578407978546</created>
@@ -248,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578407978546</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Machine learning into the mix">
+      <created>1578907683637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578907683637</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +257,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My buggy game is implemented, displayed using p5" />
-    <option name="LAST_COMMIT_MESSAGE" value="My buggy game is implemented, displayed using p5" />
+    <MESSAGE value="Added Machine learning into the mix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Machine learning into the mix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="327" y="174" width="1089" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578827150980">
@@ -288,6 +290,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="567" y="347" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1440.900@0.0.1440.900" timestamp="1577920077391" />
+    <state x="899" y="296" key="CommitChangelistDialog2" timestamp="1578907790689">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="899" y="296" key="CommitChangelistDialog2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1578907790689" />
     <state width="1692" height="725" key="DebuggerActiveHint" timestamp="1578902831694">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -353,20 +359,21 @@
     </state>
     <state width="1398" height="294" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1578410356350" />
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1578900247404" />
-    <state x="1094" y="158" key="SettingsEditor" timestamp="1578854949722">
+    <state x="1094" y="158" key="SettingsEditor" timestamp="1578907723269">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578049351218" />
-    <state x="1094" y="158" key="SettingsEditor/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1578854949722" />
+    <state x="1094" y="158" key="SettingsEditor/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1578907723269" />
     <state width="889" height="693" key="SwitcherDM" timestamp="1578906622640">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1578410281108" />
     <state width="889" height="693" key="SwitcherDM/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1578906622640" />
-    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1578407985249">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="569" y="277" key="Vcs.Push.Dialog.v2" timestamp="1578909564447">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="320" y="178" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578407985249" />
+    <state x="569" y="277" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1578909564447" />
     <state width="2186" height="707" key="XDebugger.FullValuePopup" timestamp="1578902508459">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
