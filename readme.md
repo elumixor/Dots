@@ -1,5 +1,5 @@
 # Dots Game (Machine Learning)
-[Game info, rules](https://en.wikipedia.org/wiki/Dots_(game)
+[Game info, rules](https://en.wikipedia.org/wiki/Dots_(game))
 
 #### Uses:
 - [p5](https://p5.readthedocs.io/en/latest/install.html)
