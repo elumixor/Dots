@@ -1,6 +1,6 @@
 # Grid and board parameters
 board_size = 10
-board_range = range(0, board_size)
+board_range = range(board_size)
 
 # Maximum dots on the board
 max_dots = board_size * board_size
@@ -9,7 +9,7 @@ max_dots = board_size * board_size
 number_of_players = 2
 
 # range of players indices
-players = range(0, number_of_players)
+players = range(number_of_players)
 
 # Display configuration
 line_thickness = 2

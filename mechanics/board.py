@@ -2,7 +2,7 @@ from p5 import *
 
 from mechanics.common import min_value, max_value, distance
 from mechanics.grid import Grid
-from mechanics.parameters import *
+from hyperparameters import *
 
 
 class Point:
@@ -304,7 +304,7 @@ class Board:
         # we create a dict of group -> surrounding points of that group
         surrounding_groups = self.get_surrounding_groups(x, y, player)
 
-        print(f"Surrounding groups for {(x, y)}: [{', '.join([str(g) for g in surrounding_groups])}]")
+        # print(f"Surrounding groups for {(x, y)}: [{', '.join([str(g) for g in surrounding_groups])}]")
 
         # if any surrounding points were found, merge groups together with
         # a new point, update cycles and captured points
@@ -349,7 +349,7 @@ class Board:
                                     group_points[p1] = [(p.x, p.y)]
 
                         # if it is captured, switch it's group
-                        else:
+                        elif self.points[p.y][p.x] is not None:
                             self.points[p.y][p.x].player = player
 
                         # for each cycle that is inside the captured cycle it should be reversed:
@@ -485,3 +485,12 @@ class Board:
                     s += 1
 
         return s
+
+    def __iter__(self):
+        for y in board_range:
+            for x in board_range:
+                yield x, y, self.points[y][x]
+
+    def __repr__(self):
+        return str(',\n'.join([str([-1 if g is None else g.player for g in row]) for row in self.points]))
+        # return str([[-1 if g is None else g.player for g in row] for row in self.points])

@@ -1,8 +1,7 @@
-import os
 from datetime import datetime
 
 from mechanics.board import Board
-from mechanics.parameters import *
+from hyperparameters import *
 
 
 class Log:

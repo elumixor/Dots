@@ -5,7 +5,7 @@ from p5 import *
 from mechanics.common import get_mouse_down
 from mechanics.grid import Grid
 from mechanics.board import Point, Board
-from mechanics.parameters import *
+from hyperparameters import *
 
 # Grid and Board
 grid = Grid(board_size, line_thickness, space_thickness, scale)
