@@ -44,7 +44,7 @@ Run out of time. Could not reach all project goals.
     
     Fixing those bugs would just take me even more time
     
-    *Improve with:* **better search for existing projects**, **better testing**, **more python practice**
+    *Improve with:* **better searching for existing projects**, **better testing**, **more python practice**
     
 1. Insufficient background into data science, ML
 
